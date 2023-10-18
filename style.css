@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+.header{
+ display: grid;
+ grid-template-columns: 450PX 540PX 350PX;
+ margin-bottom: 180PX;
+
+}
+
+.header .col1{
+  background-color: #151515;
+}
+.header .col1 h1{
+ color: white;
+  font-size:66PX;
+  font-weight: 300;
+  
+  position: relative;
+  left: 165px;
+  TOP: 189px;
+
+}
+.header .col3 p{
+  color: black;
+position: relative;
+LEFT: -44PX;
+top: 190PX;
+}
+.header .col3 a{
+  position: relative;
+  top: 214px;
+ text-decoration: none;
+ background-color: black;
+ padding: 20PX;
+flex-shrink: 0;
+color: white;
+LEFT: -44PX;
+}
+.header .col3 a img{
+  position: relative;
+background-color: #D5966C;
+padding: 16.5PX;
+right: -20PX;
+top: 22px;
+}
+
+.section1{
+  display: grid;
+  grid-template-columns: 480PX 635PX;
+  margin-bottom: 30PX;
+  margin-right: 165PX;
+  margin-left: 165PX;
+  
+  
+}
+
+.section1 .col1 h1{
+   font-size: 60PX;
+   font-weight: 900;
+   margin-bottom: 30PX;
+
+}
+.section1 .col1 P{
+  font-size: 22PX;
+  font-weight: 300;
+  color:#444444;
+}
+.section2{
+  display: grid;
+  grid-template-columns: 635PX 445PX;
+  grid-template-rows: 313PX 377PX;
+  gap: 30PX;
+  margin-bottom: 180PX;
+  margin-right: 165PX;
+  margin-left: 165PX;
+}
+.section2 .col2 .row2{
+ background-color: black;
+ padding: 35PX;
+ margin-top: 30PX;
+
+}
+.section2 .col2 .row2 h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.section2 .col2 .row2 P{
+  font-size: 22PX;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 54PX;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #151515;
+  height: 244PX;
+  width: 1440PX;
+  padding: 50PX;
+}
+.section3{
+  display: grid;
+  grid-template-columns: 480PX 480PX 480PX;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .prg{
+  color: white;
+  font-size: 18PX;
+  font-weight: 300;
+}
+.section3 .imgs img{
+  position: relative;
+  margin: 20PX;
+}
+.section3 .logo img{
+  width:160PX ;
+  height: 58PX;
+}

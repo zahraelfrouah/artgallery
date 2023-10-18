@@ -1,0 +1,90 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.section1{
+  display: grid;
+  grid-template-columns: 720PX 720PX;
+  background-color: black;
+  height: 436PX;
+  width: 1440PX;
+}
+.section1 .title h1{
+  font-size: 55PX;
+  font-weight: 900;
+  color: white;
+  position: relative;
+  top: 89px;
+  left: 39px;
+}
+.section1 .text h3{
+  color:  #D5966C;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  top: 89px;
+
+}
+.section1 .text p{
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  position: relative;
+  top: 140PX;
+  margin: 20PX;
+}
+.section2{
+
+  display: grid;
+  grid-template-columns: 480PX 480PX 430PX;
+  justify-content: center;
+  align-items: center;
+  height: 244PX;
+  width: 1440PX;
+
+  background-color: #D5966C;
+}
+.section2 .prg{
+  color: white;
+  font-size: 18PX;
+  font-weight: 300;
+}
+.section2 .imgs img{
+  position: relative;
+  margin: 20PX;
+}
+.section2 .logo img{
+  width:160PX ;
+  height: 58PX;
+}
+.maps{
+  background-image: url(images/image-map.png);
+  width: 1440px;
+height: 685px;
+flex-shrink: 0;
+
+}
+
+.maps a{
+  position: relative;
+  top: -25px;
+  left: 30PX;
+ text-decoration: none;
+ background-color: black;
+ padding: 20PX;
+flex-shrink: 0;
+color: white;
+
+}
+.maps img{
+  position: relative;
+background-color: #D5966C;
+padding: 16.5PX;
+right: -20PX;
+top: 22px;
+}
